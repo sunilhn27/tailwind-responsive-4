@@ -17,13 +17,13 @@ function NavBar() {
     return (
         <section className='bg-[#2ED06E] py-4'>
             <nav className='text-[#FFF] flex items-center justify-evenly'>
-                <div className='flex justify-between border-2 border-red-500 w-full md:w-[8rem] items-center md:px-0 px-2'>
+                <div className='flex justify-between  w-full md:w-[8rem] items-center md:px-0 px-2'>
                     <div className=' '>
                         <Image src={Logo} alt='logo' />
                     </div>
                     <div className='md:hidden '>
                         {mobileView ? (<AiOutlineClose onClick={handleMenu} />) : (<GiHamburgerMenu onClick={handleMenu} />)}
-                        {mobileView && (<div className='md:hidden absolute top-[3.5rem] right-0 mt-2 space-y-2 bg-white w-[10rem] px-4 py-2 shadow-lg text-sm text-black'>
+                        {mobileView && (<div className='md:hidden flex flex-col absolute top-[3.5rem] right-0 mt-2 space-y-2 bg-white w-[8rem] h-[10rem] px-4 py-2 shadow-lg text-sm text-black'>
                             <Link href={""}>Home</Link>
                             <Link href={""}>About</Link>
                             <Link href={""}>Pages</Link>
