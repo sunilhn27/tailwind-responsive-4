@@ -3,7 +3,7 @@ import HeroImg from '@/asserts/hero-image.png'
 import Image from 'next/image'
 function Hero() {
     return (
-        <section className='h-[51rem] bg-[#2ED06E]  '>
+        <section className='md:h-[41rem] bg-[#2ED06E]  '>
             <div className='text-white flex flex-col md:flex-row justify-evenly items-center'>
                 <div className='flex flex-col md:w-[23rem] justify-center items-center md:items-start pb-12 md:pb-0'>
                     <h3 className='md:text-[1.25rem] md:mb-2 mb-4' >Creative App Landing Page</h3>
