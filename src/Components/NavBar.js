@@ -8,7 +8,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 function NavBar() {
     const [scrolled, setScrolled] = useState(false);
-    const [mobileView, setMobileView] = useState(true)
+    const [mobileView, setMobileView] = useState(false)
 
     const handleMenu = () => {
         setMobileView(!mobileView)
@@ -32,7 +32,7 @@ function NavBar() {
 
 
     return (
-        <section className='bg-[#2ED06E] py-4'>
+        <section className='bg-[#2ED06E] py-10'>
             <nav className={` text-[#FFF] flex items-center justify-evenly fixed top-0 left-0 right-0 z-10 p-4 transition-all duration-300 ${navbarClass}`}>
                 <div className='flex justify-between  w-full md:w-[8rem] items-center md:px-0 px-2'>
                     <div className=' '>
