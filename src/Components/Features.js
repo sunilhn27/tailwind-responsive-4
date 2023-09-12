@@ -4,6 +4,8 @@ import Image from 'next/image'
 import VectorImg1 from '@/asserts/Vector1.png'
 import VectorImg2 from '@/asserts/Vector2.png'
 import VectorImg3 from '@/asserts/Vector3.png'
+
+
 function Features() {
   return (
     <section className='bg-[#F4F7FA] py-12'>

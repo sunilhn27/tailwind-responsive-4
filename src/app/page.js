@@ -1,6 +1,7 @@
 import Features from '@/Components/Features'
 import Hero from '@/Components/Hero'
 import NavBar from '@/Components/NavBar'
+import Services from '@/Components/Services'
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Features/>
+      <Services/>
     </main>
   )
 }
