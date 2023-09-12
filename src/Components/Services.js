@@ -25,7 +25,7 @@ function Services() {
       <div className='flex '>
         <div className='flex flex-col md:flex mx-auto text-center'>
           <h3 className='text-[#2ED06E] text-[1.5rem]'>What we offer</h3>
-          <h1 className='font-semibold text-[3rem]'>Our Services</h1>
+          <h1 className='font-semibold md:text-[3rem] text-[2rem]'>Our Services</h1>
           <p className='text-gray-500 md:w-[43rem] mt-2'>There are many variations of passages of Lorem Ipsum available, but the majority have
             suffered alteration in some form.</p>
         </div>
