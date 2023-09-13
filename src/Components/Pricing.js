@@ -4,9 +4,9 @@ function Pricing() {
 
   const Individual = ({ }) => {
     return (<>
-      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[37rem] border-2 border-red-500 shadow-xl rounded-lg bg-[#FFF]'>
+      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[34rem] shadow-xl rounded-lg bg-[#FFF]'>
         <div className='flex flex-col mx-6 py-10 '>
-          <h1 className='text-[#2ED06E] text-[1.2rem] '>Individual</h1>
+          <h1 className='text-[#2ED06E] text-[1.2rem]  font-semibold'>Individual</h1>
           <p className='text-gray-400 mb-5'>Powerful & Awesome Elements</p>
           <div className='flex items-center'>
             <h1 className='text-[2rem] font-semibold'>$19</h1>
@@ -29,9 +29,9 @@ function Pricing() {
 
   const Exclusive = ({ }) => {
     return (<>
-      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[37rem] border-2 border-red-500 shadow-xl rounded-lg bg-[#FFF]'>
+      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[34rem] shadow-xl rounded-lg bg-[#FFF]'>
         <div className='flex flex-col mx-6 py-10 '>
-          <h1 className='text-[#2ED06E] text-[1.2rem] '>Exclusive</h1>
+          <h1 className='text-[#2ED06E] text-[1.2rem] font-semibold '>Exclusive</h1>
           <p className='text-gray-400 mb-5'>Powerful & Awesome Elements</p>
           <div className='flex items-center'>
             <h1 className='text-[2rem] font-semibold'>$49</h1>
@@ -41,7 +41,7 @@ function Pricing() {
             <h3 className='mb-3'>Commercial License</h3>
             <h3 className='mb-3'>100+ HTML UI Elements</h3>
             <h3 className='mb-3'>01 Domain Support</h3>
-            <p className='text-gray-400 mb-3'>6 Month Premium Support</p>
+            <p className=' mb-3'>6 Month Premium Support</p>
             <p className='text-gray-400 mb-3'>Lifetime Updates</p>
             <button className='text-white bg-black px-8 py-2 rounded-full mt-6'>Start free trial </button>
             <p className='text-gray-400 mt-4'>No credit card required</p>
@@ -55,9 +55,9 @@ function Pricing() {
 
   const Premium = ({ }) => {
     return (<>
-      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[37rem] border-2 border-red-500 shadow-xl rounded-lg bg-[#FFF]'>
+      <div className='md:w-[24rem] md:h-[34rem] w-[20rem] h-[34rem] shadow-xl rounded-lg bg-[#FFF]'>
         <div className='flex flex-col mx-6 py-10 '>
-          <h1 className='text-[#2ED06E] text-[1.2rem] '>Premium</h1>
+          <h1 className='text-[#2ED06E] text-[1.2rem]  font-semibold'>Premium</h1>
           <p className='text-gray-400 mb-5'>Powerful & Awesome Elements</p>
           <div className='flex items-center'>
             <h1 className='text-[2rem] font-semibold'>$99</h1>
@@ -67,8 +67,8 @@ function Pricing() {
             <h3 className='mb-3'>Commercial License</h3>
             <h3 className='mb-3'>100+ HTML UI Elements</h3>
             <h3 className='mb-3'>01 Domain Support</h3>
-            <p className='text-gray-400 mb-3'>6 Month Premium Support</p>
-            <p className='text-gray-400 mb-3'>Lifetime Updates</p>
+            <p className='mb-3'>6 Month Premium Support</p>
+            <p className=' mb-3'>Lifetime Updates</p>
             <button className='text-white bg-[#2ED06E] px-8 py-2 rounded-full mt-6'>Start free trial </button>
             <p className='text-gray-400 mt-4'>No credit card required</p>
           </div>
