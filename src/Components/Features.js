@@ -17,7 +17,7 @@ function Features() {
           <div className='flex flex-col'>
             <div className='flex flex-col mb-12 space-y-3'>
               <h3 className='text-[#2ED06E]'>Core Features</h3>
-              <h1 className='text-[#081828] md:w-[16rem] font-bold md:text-[1.3rem] text-[1.7rem]'>Designed & built by the
+              <h1 className='text-[#081828] md:w-[24rem] font-bold md:text-[2.3rem] text-[1.7rem]'>Designed & built by the
                 latest code integration</h1>
             </div>
             <div className='flex flex-col space-y-6'>
