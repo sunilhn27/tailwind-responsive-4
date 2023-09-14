@@ -37,12 +37,12 @@ function NavBar() {
         <section className='bg-[#2ED06E] py-10'>
             <nav className={` text-[#FFF] flex items-center justify-evenly fixed top-0 left-0 right-0 z-10 p-4 transition-all duration-300 ${navbarClass}`}>
                 <div className='flex justify-between  w-full md:w-[8rem] items-center md:px-0 px-2'>
-                    <div className={`${mobileView? "mt-8" : "mt-0"}`}>
-                        {scrolled ? (<Image src={LogoDark} alt='logo' className={``}/>) : (<Image src={Logo} alt='logo' className='mt-6' />)}
+                    <div className={`${mobileView ? "mt-8" : ""}`}>
+                        {scrolled ? (<Image src={LogoDark} alt='logo' />) : (<Image src={Logo} alt='logo' />)}
 
                     </div>
                     <div className={`md:hidden ${scrolled ? "mt-6" : "mt-0"}`}>
-                        {mobileView ? (<AiOutlineClose className={`w-[3rem] h-[1.5rem] ${scrolled? "text-black":""}`} onClick={handleMenu} />) : (<GiHamburgerMenu className={`w-[3rem] h-[1.5rem] ${scrolled? "text-black":""}`} onClick={handleMenu} />)}
+                        {mobileView ? (<AiOutlineClose className={`w-[3rem] h-[1.5rem] ${scrolled ? "text-black" : ""}`} onClick={handleMenu} />) : (<GiHamburgerMenu className={`w-[3rem] h-[1.5rem] ${scrolled ? "text-black" : ""}`} onClick={handleMenu} />)}
                         {mobileView && (<div className={`md:hidden flex flex-col absolute top-[4.5rem] right-2 rounded-lg mt-2 space-y-2 bg-white w-[8rem] h-[10rem] px-4 py-2 shadow-lg text-sm text-black `}>
                             <Link href={""}>Home</Link>
                             <Link href={""}>About</Link>
@@ -60,7 +60,7 @@ function NavBar() {
                     <Link href={""}>Careers</Link>
                 </div>
                 <div className='hidden md:flex'>
-                    <button className={`text-black bg-white px-4 py-2 rounded-full ${scrolled ? "bg-green-300" : ""} ${scrolled ? "bg-green-500" : "text-black"}`}>Try for Free</button>
+                    <button className={`text-black bg-white px-4 py-2 rounded-full ${scrolled ? "bg-green-300" : ""} ${scrolled ? "bg-green-600" : "text-black"}`}>Try for Free</button>
 
                 </div>
             </nav>
