@@ -17,13 +17,14 @@ function Faqs() {
             setToggle(!toggle);
         }
 
-        return (<div className='w-[22rem] md:w-[39rem] md:h-[3.5rem]'>
+
+        return (<div className='w-[22rem] md:w-[39rem] '>
             <div className=' bg-white rounded-xl shadow-xl '>
                 <button onClick={handleToggle} className='flex w-[95%] justify-between text-center py-4 mx-2'>
                     {questions}
                     <span className=''>{toggle ? (<AiOutlineMinus />) : (<AiOutlinePlus />)}</span>
                 </button>
-                {toggle && (<div className='text-[#637381] mt-2 px-12 text-start font-sans text-sm  '>
+                {toggle && (<div className='text-[#637381] mt-2 px-4 text-start font-sans text-sm  '>
                     {answers}
                 </div>)}
             </div>
@@ -32,7 +33,7 @@ function Faqs() {
 
     return (
         <section className='bg-[#F4F7FA] py-16'>
-            <div className='flex flex-col md:flex justify-center items-center'>
+            <div className='flex flex-col md:flex justify-center items-center mb-12'>
                 <div className='flex flex-col text-center space-y-4'>
                     <h3 className='text-[1rem] text-[#2ED06E]'>FAQs</h3>
                     <h1 className='text-[2rem] text-gray-500 '>Frequently asked questions</h1>
@@ -48,6 +49,11 @@ function Faqs() {
                     <div>
                         <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
                     </div>
+
+                    <div>
+                        <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
+                    </div>
+               
 
                     <div>
                         <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
