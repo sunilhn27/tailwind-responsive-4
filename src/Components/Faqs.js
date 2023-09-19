@@ -5,29 +5,29 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 
 function Faqs() {
 
- const [toggle, setToggle] = useState(false);
+
+
+    const FAQ = ({ questions, answers }) => {
+
+
+        const [toggle, setToggle] = useState(false);
 
 
         const handleToggle = () => {
             setToggle(!toggle);
         }
 
-    const FAQ = ({ }) => {
-
-
-       
-
-        return (<>
-            <div className='w-[22rem] md:w-[39rem] md:h-[3.5rem] bg-white rounded-xl shadow-xl '>
-                <button onClick={handleToggle} className='flex w-[95%] justify-between items-center py-4 mx-2'>
-                    Can I cancel my subscription at anytime?
-                    <span className='flex'>{toggle ? (<AiOutlineMinus />) : (<AiOutlinePlus />)}</span>
+        return (<div className='w-[22rem] md:w-[39rem] md:h-[3.5rem]'>
+            <div className=' bg-white rounded-xl shadow-xl '>
+                <button onClick={handleToggle} className='flex w-[95%] justify-between text-center py-4 mx-2'>
+                    {questions}
+                    <span className=''>{toggle ? (<AiOutlineMinus />) : (<AiOutlinePlus />)}</span>
                 </button>
-                {toggle && (<div className='leading-relaxed mt-2 px-2 text-start font-sans text-sm py-2'>
-                    It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available
+                {toggle && (<div className='text-[#637381] mt-2 px-12 text-start font-sans text-sm  '>
+                    {answers}
                 </div>)}
             </div>
-        </>)
+        </div>)
     }
 
     return (
@@ -43,14 +43,14 @@ function Faqs() {
             <div className='flex flex-col md:flex justify-center items-center '>
                 <div className='grid md:grid-cols-2 gap-4'>
                     <div>
-                        <FAQ />
+                        <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
                     </div>
                     <div>
-                        <FAQ />
+                        <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
                     </div>
 
                     <div>
-                        <FAQ />
+                        <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
                     </div>
 
 
