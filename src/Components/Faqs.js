@@ -5,17 +5,17 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 
 function Faqs() {
 
-
-
-    const FAQ = ({ }) => {
-
-
-        const [toggle, setToggle] = useState(false);
+ const [toggle, setToggle] = useState(false);
 
 
         const handleToggle = () => {
             setToggle(!toggle);
         }
+
+    const FAQ = ({ }) => {
+
+
+       
 
         return (<>
             <div className='w-[22rem] md:w-[39rem] md:h-[3.5rem] bg-white rounded-xl shadow-xl '>
