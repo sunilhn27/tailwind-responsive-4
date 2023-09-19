@@ -44,7 +44,7 @@ function Faqs() {
             <div className='flex flex-col md:flex justify-center items-center '>
                 <div className='grid md:grid-cols-2 gap-4'>
                     <div>
-                        <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
+                        <FAQ questions={"Do you offer any discounts??"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
                     </div>
                     <div>
                         <FAQ questions={"How long we deliver your first blog post?"} answers={"It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post,  Ipsum available ."} />
