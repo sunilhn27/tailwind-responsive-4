@@ -3,19 +3,22 @@ import React from 'react'
 import VectorImg1 from '@/asserts/Vector1.png'
 import VectorImg2 from '@/asserts/Vector2.png'
 import VectorImg3 from '@/asserts/Vector3.png'
+import AnimationWrapper from '@/app/AnimationWrapper'
 
 function Services() {
 
 
   const ServiceCard = ({ image, title, para }) => {
     return (
-      <div className='flex flex-col'>
-        <div className='shadow-2xl w-[26rem] h-[19rem]  text-center py-12 rounded-lg'>
-          <Image src={image} alt='pic' className='mx-auto mb-6' />
-          <h1 className='font-bold text-[1.5rem] mb-2'>{title}</h1>
-          <p className='w-[21rem] mx-auto text-gray-500'>{para}</p>
+      <AnimationWrapper delay={0.5}>
+        <div className='flex flex-col'>
+          <div className='shadow-2xl w-[26rem] h-[19rem]  text-center py-12 rounded-lg'>
+            <Image src={image} alt='pic' className='mx-auto mb-6' />
+            <h1 className='font-bold text-[1.5rem] mb-2'>{title}</h1>
+            <p className='w-[21rem] mx-auto text-gray-500'>{para}</p>
+          </div>
         </div>
-      </div>
+      </AnimationWrapper>
     )
   }
 
